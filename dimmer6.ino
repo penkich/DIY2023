@@ -10,8 +10,7 @@
  ロータリーエンコーダー
  １回プッシュで(MODE=1)latency テスト、２回目(MODE=2)で照度取得、３回目(MODE=3)で０～５レベルに対応する照度を設定、４回目で運転モード(MODE=0)に戻る
  運転モード(MODE=0)時において照度センサーをスルーするには、TXピンをジャンパーピンでGNDピンに落とす
- 参考
- AC-Dimmer-PhaseControl v.1.0 2020.11.03 by meyon
+ 参考情報：AC-Dimmer-PhaseControl v.1.0 2020.11.03 by meyon
 ***/ 
 
 #include <RotaryEncoder.h> // https://github.com/mathertel/RotaryEncoder
